@@ -4,7 +4,7 @@
 
 ## 🎯 Resumen del Proyecto
 
-Este repositorio contiene la implementación computacional en **MATLAB** de un esquema de **diferencias finitas** de segundo orden para resolver la Ecuación 2D Sine-Gordon (FSG) con doble amortiguamiento (disipación) y operadores de **Riesz espacio-fraccionales** de diferente orden ($\alpha, \beta \in (1, 2)$).
+Este repositorio contiene la implementación computacional en **MATLAB** de un esquema de **diferencias finitas** de segundo orden para resolver la Ecuación 2D Sine-Gordon (FSG) con doble amortiguamiento (disipación) y operadores de **Riesz espacio-fraccionales** de diferente orden $\alpha, \beta \in (1, 2)$ .
 
 El objetivo central del trabajo fue desarrollar un modelo numérico que preservara la estructura de disipación (o conservación, en el caso sin amortiguamiento) de la energía del sistema, tal como ocurre en el modelo continuo.
 
