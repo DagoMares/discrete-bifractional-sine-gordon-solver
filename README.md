@@ -13,9 +13,7 @@ El análisis y los resultados de este trabajo han sido publicados en la revista 
 
 Se investigó la siguiente Ecuación Diferencial Parcial no lineal:
 
-$
-\frac{\partial^{2}u(x,y,t)}{\partial t^{2}}+\gamma\frac{\partial u(x,y,t)}{\partial t}-\lambda\Delta^{\alpha,\beta}u(x,y,t)=-\phi(x,y)sin~u(x,y,t) +F(x,y,t)-G^{\prime}(u(x,y,t))
-$
+$\frac{\partial^{2}u(x,y,t)}{\partial t^{2}}+\gamma\frac{\partial u(x,y,t)}{\partial t}-\lambda\Delta^{\alpha,\beta}u(x,y,t)=-\phi(x,y)sin~u(x,y,t) +F(x,y,t)-G^{\prime}(u(x,y,t))$
 
 donde $\Delta^{\alpha,\beta}u = \frac{\partial^{\alpha}u}{\partial|x|^{\alpha}}+\frac{\partial^{\beta}u}{\partial|y|^{\beta}}$ es el **Operador Laplaciano Fraccional de orden $(\alpha, \beta)$** de Riesz.
 
