@@ -1,5 +1,7 @@
 # 🌊 Esquema Numérico para la Ecuación 2D Sine-Gordon Bifraccional Disipativa
 
+![](https://github.com/DagoMares/discrete-bifractional-sine-gordon-solver/blob/main/Soliton.gif)
+
 ## 🎯 Resumen del Proyecto
 
 Este repositorio contiene la implementación computacional en **MATLAB** de un esquema de **diferencias finitas** de segundo orden para resolver la Ecuación 2D Sine-Gordon (FSG) con doble amortiguamiento (disipación) y operadores de **Riesz espacio-fraccionales** de diferente orden ($\alpha, \beta \in (1, 2)$).
