@@ -30,7 +30,7 @@ donde $\Delta^{\alpha,\beta}u = \frac{\partial^{\alpha}u}{\partial|x|^{\alpha}}+
 El esquema numérico satisface rigurosamente las siguientes propiedades, fundamentales para la fiabilidad de la solución:
 
 1.  **Conservación/Disipación de Energía Discreta (Preservación de Estructura):** Se probó que la energía discreta se conserva (cuando $\gamma=0$ y $F \equiv 0$) o disipa (cuando $\gamma>0$) a lo largo del tiempo, replicando el comportamiento del sistema continuo (Teorema 2).
-2.  **Consistencia:** El esquema es de **segundo orden** en el error de truncamiento ($\mathcal{O}(h^2 + \tau^2)$).
+2.  **Consistencia:** El esquema es de **segundo orden** en el error de truncamiento ( $\mathcal{O}(h^2 + \tau^2)$ ).
 3.  **Estabilidad Condicional y Convergencia:** La estabilidad y la convergencia del esquema son de **segundo orden en la norma $L^2$**.
 
 ## 🧪 Resultados de Simulación
@@ -39,7 +39,7 @@ Las simulaciones en MATLAB confirmaron la validez del esquema:
 
 * **Verificación:** El error $L^2$ entre la solución numérica y una solución analítica conocida se mantuvo por debajo de $1.6 \times 10^{-2}$.
 * **Preservación de Energía:** Se validó la propiedad de conservación/disipación de energía, coincidiendo con los resultados del Teorema 2.
-* **Efectos Fraccionales:** Al variar las órdenes fraccionales ($\alpha, \beta$), se observó que la **amplitud de la onda aumenta** significativamente a medida que $\alpha$ y $\beta$ se alejan del caso entero ($\alpha=\beta=2$).
+* **Efectos Fraccionales:** Al variar las órdenes fraccionales ( $\alpha, \beta$ ), se observó que la **amplitud de la onda aumenta** significativamente a medida que $\alpha$ y $\beta$ se alejan del caso entero ( $\alpha=\beta=2$ ).
 
 ## 💻 Ejecución y Código
 
