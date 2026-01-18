@@ -1,6 +1,7 @@
 # Numerical Scheme for the 2D Dissipative Bifractional Sine-Gordon Equation
-
-![Soliton Animation](https://github.com/DagoMares/discrete-bifractional-sine-gordon-solver/blob/main/Soliton.gif)
+<p align="center">
+  <img src="https://github.com/DagoMares/discrete-bifractional-sine-gordon-solver/blob/main/Soliton.gif" alt="Simulation of Soliton Wave evolution" />
+</p>
 
 ## 📌 Project Overview
 
