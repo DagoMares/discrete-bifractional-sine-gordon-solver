@@ -26,9 +26,9 @@ Where:
 -   **$u(x,y,t)$**: The scalar field representing the wave solution.
 -   **$\gamma > 0$**: Damping coefficient (dissipation).
 -   **$\Delta^{\alpha,\beta}$**: The **Riesz Fractional Laplacian Operator** defined as:
-    $$
-    \Delta^{\alpha,\beta}u = \frac{\partial^{\alpha}u}{\partial|x|^{\alpha}} + \frac{\partial^{\beta}u}{\partial|y|^{\beta}}
-    $$
+  
+    $\Delta^{\alpha,\beta}u = \frac{\partial^{\alpha}u}{\partial|x|^{\alpha}} + \frac{\partial^{\beta}u}{\partial|y|^{\beta}}$.
+    
     This fractional operator models nonlocal interactions in the medium, providing a generalization of standard diffusion.
 
 ---
@@ -39,7 +39,7 @@ This project leverages advanced numerical methods implemented in **MATLAB (R2024
 
 ### Key Algorithms
 *   **Temporal Discretization**: A two-step **Crank-Nicolson** method is used for time integration, ensuring unconditional stability and second-order accuracy.
-*   **Spatial Approximation**: Riesz fractional derivatives are approximated using **fractional centered differences**, maintaining second-order spatial precision ($\mathcal{O}(h^2)$).
+*   **Spatial Approximation**: Riesz fractional derivatives are approximated using **fractional centered differences**, maintaining second-order spatial precision $\mathcal{O}(h^2)$.
 *   **Nonlinear Solver**: The arising nonlinear algebraic system at each time step is solved using a **Fixed-Point Iteration** scheme (Picard iteration) for efficiency and robustness.
 
 ### Theoretical Guarantees
